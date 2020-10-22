@@ -228,6 +228,10 @@ table thead tr th {
   border-bottom: 1px solid var(--color-accent);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 /* Link */
 
 a {
@@ -319,6 +323,27 @@ a:focus {
 
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
+}
+
+.skills--content {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.skills--content p {
+  min-width: unset;
+  margin: 30px 0px;
+}
+
+.photo--about {
+  width: 100%;
+  min-height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 /* Media queries */

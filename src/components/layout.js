@@ -11,7 +11,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <>
       <h3 className="main-heading">
-        Olá, eu sou o <Link to="/">{title}</Link>.<br></br>
+        Olá, eu sou o <Link to="/">Gustavo</Link>.<br></br>
         Desenvolvedor Frontend, <br></br>
         Pesquisador e criador do Movier.      
       </h3>
@@ -31,15 +31,8 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>
 
-
-      <>
-      
-      heheheh
-
-      </>
         
         {children}
-      
       
       
       </main>
